@@ -74,7 +74,7 @@ Tu dois répondre clairement aux questions de l'utilisateur à partir de ces don
         msg.body(bot_reply)
 
     except Exception as e:
-        msg.body("Désolé, une erreur est survenue. Réessaie plus tard.")
+        msg.body("Désolé, une erreur est survenue. Réessaie plus tard. Erreur OpenAI :", e)
         print("Erreur OpenAI :", e)
 
     return str(response)
