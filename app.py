@@ -28,7 +28,7 @@ base_context = format_pharmacies(pharmacies)
 
 @app.route("/", methods=["GET"])
 def home():
-    return "🤖 Bot WhatsApp Pharma avec Gemini en ligne !"
+    return "🤖 Bot WhatsApp Pharma avec Gemini est en ligne !"
 
 @app.route("/bot", methods=["POST"])
 def bot():
@@ -41,23 +41,20 @@ def bot():
         return str(response)
 
     try:
-        model = genai.GenerativeModel("gemini-pro")
-        convo = model.start_chat(history=[])
-
+        model = genai.GenerativeModel("models/gemini-pro")  # correct name
         prompt = f"""Tu es un assistant pharmacie pour le Togo. Voici les données à ta disposition :\n{base_context}\n
 Réponds précisément à cette question de l'utilisateur :
 \"{incoming_msg}\""""
 
-        gemini_response = convo.send_message(prompt)
+        gemini_response = model.generate_content(prompt)
         msg.body(gemini_response.text)
 
     except Exception as e:
-        msg.body("Erreur serveur. Réessaye plus tard.")
+        msg.body(e)
         print("Erreur Gemini:", e)
 
     return str(response)
 
-
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
