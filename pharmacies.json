@@ -1,0 +1,607 @@
+[
+    {
+        "id": "pharma_001",
+        "nom": "Huet SARL",
+        "logo_url": "https://picsum.photos/616/153",
+        "adresse": "8, boulevard Nicole Mahe\n44877 Greniernec",
+        "quartier": "Hanoukopé",
+        "ville": "Lomé",
+        "latitude": 58.371425,
+        "longitude": 136.475039,
+        "contact_whatsapp": "+33 1 80 08 14 85",
+        "contact_urgence": "01 46 67 38 62",
+        "email": "claudine61@perez.fr",
+        "site_web": "http://delorme.com/",
+        "responsable": "Alex Da Costa",
+        "langues_parlées": [
+            "éwé",
+            "français",
+            "anglais"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": false,
+        "garde_weekend": false,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Tmoney",
+            "Espèces"
+        ],
+        "assurances_acceptees": [
+            "CNSS"
+        ],
+        "services_disponibles": [
+            "Scan ordonnance",
+            "Livraison",
+            "Dépistage",
+            "Vaccination"
+        ],
+        "date_creation": "2023-09-07",
+        "date_maj": "2025-06-22",
+        "note_moyenne": 4.2,
+        "avis_clients": [
+            {
+                "nom": "Maggie",
+                "note": 3.8,
+                "commentaire": "Chef soleil plein hiver.",
+                "date": "2025-04-20"
+            },
+            {
+                "nom": "Antoinette",
+                "note": 4.1,
+                "commentaire": "Distinguer dominer soin si paraître soit non maladie.",
+                "date": "2025-06-29"
+            }
+        ]
+    },
+    {
+        "id": "pharma_002",
+        "nom": "Faure",
+        "logo_url": "https://dummyimage.com/828x461",
+        "adresse": "1, boulevard Caron\n07292 GarciaBourg",
+        "quartier": "Bè-Kpota",
+        "ville": "Lomé",
+        "latitude": 65.313272,
+        "longitude": -168.472023,
+        "contact_whatsapp": "03 52 57 91 49",
+        "contact_urgence": "+33 1 64 77 98 66",
+        "email": "laurence42@morel.com",
+        "site_web": "http://dupuis.com/",
+        "responsable": "Juliette Texier-Pelletier",
+        "langues_parlées": [
+            "éwé"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": true,
+        "garde_weekend": false,
+        "garde_urgente": true,
+        "mode_paiement": [
+            "Tmoney",
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "NSIA",
+            "OGAR"
+        ],
+        "services_disponibles": [
+            "Livraison",
+            "Vaccination"
+        ],
+        "date_creation": "2024-04-24",
+        "date_maj": "2025-07-01",
+        "note_moyenne": 3.2,
+        "avis_clients": [
+            {
+                "nom": "Éric",
+                "note": 3.7,
+                "commentaire": "Accuser rappeler discuter action image.",
+                "date": "2025-05-16"
+            },
+            {
+                "nom": "Célina",
+                "note": 4.7,
+                "commentaire": "Figurer respect protéger expliquer distinguer.",
+                "date": "2025-04-17"
+            },
+            {
+                "nom": "Marianne",
+                "note": 3.5,
+                "commentaire": "Finir attaquer rouge façon.",
+                "date": "2025-05-17"
+            }
+        ]
+    },
+    {
+        "id": "pharma_003",
+        "nom": "Gay",
+        "logo_url": "https://dummyimage.com/123x125",
+        "adresse": "boulevard de Neveu\n57428 Blanchetnec",
+        "quartier": "Tokoin",
+        "ville": "Lomé",
+        "latitude": -34.994126,
+        "longitude": -59.746425,
+        "contact_whatsapp": "03 59 96 35 63",
+        "contact_urgence": "01 69 54 94 35",
+        "email": "beckeraime@gregoire.fr",
+        "site_web": "https://gauthier.org/",
+        "responsable": "Dorothée Morvan",
+        "langues_parlées": [
+            "éwé"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": false,
+        "garde_weekend": false,
+        "garde_urgente": true,
+        "mode_paiement": [
+            "Flooz",
+            "Espèces",
+            "Tmoney"
+        ],
+        "assurances_acceptees": [
+            "CNSS"
+        ],
+        "services_disponibles": [
+            "Dépistage",
+            "Livraison",
+            "Vaccination",
+            "Paiement en ligne"
+        ],
+        "date_creation": "2024-04-04",
+        "date_maj": "2025-07-02",
+        "note_moyenne": 3.8,
+        "avis_clients": [
+            {
+                "nom": "Simone",
+                "note": 5.0,
+                "commentaire": "Français trop souffler.",
+                "date": "2025-06-03"
+            },
+            {
+                "nom": "Philippe",
+                "note": 3.7,
+                "commentaire": "Beaucoup avenir traverser enfant bien ainsi.",
+                "date": "2025-05-02"
+            }
+        ]
+    },
+    {
+        "id": "pharma_004",
+        "nom": "Voisin S.A.S.",
+        "logo_url": "https://dummyimage.com/848x331",
+        "adresse": "7, avenue de Masson\n77814 Fernandes",
+        "quartier": "Bè-Kpota",
+        "ville": "Lomé",
+        "latitude": -47.82691,
+        "longitude": -80.318426,
+        "contact_whatsapp": "0489838787",
+        "contact_urgence": "+33 (0)3 56 29 86 99",
+        "email": "torresxavier@morvan.org",
+        "site_web": "https://www.moreau.fr/",
+        "responsable": "Geneviève Coste",
+        "langues_parlées": [
+            "anglais"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": false,
+        "garde_weekend": false,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Espèces",
+            "Tmoney",
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "Autres",
+            "OGAR"
+        ],
+        "services_disponibles": [
+            "Vaccination",
+            "Dépistage",
+            "Livraison"
+        ],
+        "date_creation": "2023-05-14",
+        "date_maj": "2025-06-30",
+        "note_moyenne": 4.2,
+        "avis_clients": [
+            {
+                "nom": "Roland",
+                "note": 4.0,
+                "commentaire": "Ah après été assez.",
+                "date": "2025-04-10"
+            },
+            {
+                "nom": "Tristan",
+                "note": 3.2,
+                "commentaire": "Céder poursuivre papier argent écrire consulter.",
+                "date": "2025-07-08"
+            }
+        ]
+    },
+    {
+        "id": "pharma_005",
+        "nom": "Leclerc",
+        "logo_url": "https://picsum.photos/547/493",
+        "adresse": "60, avenue de Prévost\n35846 Carlier",
+        "quartier": "Bè-Kpota",
+        "ville": "Lomé",
+        "latitude": -17.863276,
+        "longitude": -96.481591,
+        "contact_whatsapp": "+33 4 93 88 24 45",
+        "contact_urgence": "+33 (0)5 54 46 59 84",
+        "email": "couturierrobert@delattre.com",
+        "site_web": "http://www.bouvier.com/",
+        "responsable": "Philippine Baron du Carlier",
+        "langues_parlées": [
+            "français",
+            "éwé"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": true,
+        "garde_weekend": false,
+        "garde_urgente": true,
+        "mode_paiement": [
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "OGAR"
+        ],
+        "services_disponibles": [
+            "Paiement en ligne",
+            "Scan ordonnance"
+        ],
+        "date_creation": "2023-11-17",
+        "date_maj": "2025-07-01",
+        "note_moyenne": 4.2,
+        "avis_clients": [
+            {
+                "nom": "Matthieu",
+                "note": 4.2,
+                "commentaire": "Rond riche agir immense général convenir.",
+                "date": "2025-06-04"
+            },
+            {
+                "nom": "Frédéric",
+                "note": 4.9,
+                "commentaire": "Droit léger horizon parfaitement.",
+                "date": "2025-05-06"
+            },
+            {
+                "nom": "Thierry",
+                "note": 4.8,
+                "commentaire": "Que caractère voix madame oh.",
+                "date": "2025-04-29"
+            },
+            {
+                "nom": "Auguste",
+                "note": 3.3,
+                "commentaire": "Vêtement sauter réduire officier.",
+                "date": "2025-07-01"
+            },
+            {
+                "nom": "Astrid",
+                "note": 4.5,
+                "commentaire": "Le révéler cacher dormir découvrir.",
+                "date": "2025-06-12"
+            }
+        ]
+    },
+    {
+        "id": "pharma_006",
+        "nom": "Roussel",
+        "logo_url": "https://dummyimage.com/657x824",
+        "adresse": "2, chemin Danielle Blondel\n59896 Techer-la-Forêt",
+        "quartier": "Avédji",
+        "ville": "Lomé",
+        "latitude": 7.433555,
+        "longitude": 119.583352,
+        "contact_whatsapp": "+33 1 47 42 18 50",
+        "contact_urgence": "05 63 64 36 10",
+        "email": "michelrenaud@valette.com",
+        "site_web": "https://www.alexandre.com/",
+        "responsable": "Édith Allain",
+        "langues_parlées": [
+            "français",
+            "anglais"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": false,
+        "garde_weekend": false,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Flooz",
+            "Carte bancaire",
+            "Espèces",
+            "Tmoney"
+        ],
+        "assurances_acceptees": [
+            "NSIA"
+        ],
+        "services_disponibles": [
+            "Livraison",
+            "Dépistage"
+        ],
+        "date_creation": "2025-05-01",
+        "date_maj": "2025-06-27",
+        "note_moyenne": 2.8,
+        "avis_clients": [
+            {
+                "nom": "Étienne",
+                "note": 4.6,
+                "commentaire": "Long bleu lire théâtre table chaque.",
+                "date": "2025-05-26"
+            },
+            {
+                "nom": "Christelle",
+                "note": 4.6,
+                "commentaire": "Hasard pendre commander expression.",
+                "date": "2025-05-05"
+            },
+            {
+                "nom": "Jeannine",
+                "note": 4.1,
+                "commentaire": "Jeu ailleurs révéler soin sauter secret.",
+                "date": "2025-06-19"
+            },
+            {
+                "nom": "Zoé",
+                "note": 4.2,
+                "commentaire": "Partout loi vie principe devoir espace.",
+                "date": "2025-04-23"
+            },
+            {
+                "nom": "Lucie",
+                "note": 4.7,
+                "commentaire": "Seconde haut poser rencontrer vérité valeur.",
+                "date": "2025-06-27"
+            }
+        ]
+    },
+    {
+        "id": "pharma_007",
+        "nom": "Millet S.A.R.L.",
+        "logo_url": "https://placekitten.com/364/300",
+        "adresse": "597, chemin Michèle Benoit\n19338 CarlierBourg",
+        "quartier": "Bè-Kpota",
+        "ville": "Lomé",
+        "latitude": 63.959772,
+        "longitude": 81.097522,
+        "contact_whatsapp": "0244863973",
+        "contact_urgence": "+33 2 48 57 22 91",
+        "email": "henridescamps@pascal.com",
+        "site_web": "https://www.guyon.fr/",
+        "responsable": "Emmanuel-Michel Robert",
+        "langues_parlées": [
+            "éwé",
+            "anglais"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": false,
+        "garde_weekend": false,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Espèces"
+        ],
+        "assurances_acceptees": [
+            "NSIA",
+            "Autres"
+        ],
+        "services_disponibles": [
+            "Paiement en ligne",
+            "Scan ordonnance",
+            "Dépistage",
+            "Livraison"
+        ],
+        "date_creation": "2023-12-17",
+        "date_maj": "2025-06-28",
+        "note_moyenne": 3.4,
+        "avis_clients": [
+            {
+                "nom": "Océane",
+                "note": 4.3,
+                "commentaire": "Colon mais entendre réunir madame.",
+                "date": "2025-04-18"
+            },
+            {
+                "nom": "Bernadette",
+                "note": 3.3,
+                "commentaire": "Qualité énorme peine désormais.",
+                "date": "2025-05-10"
+            },
+            {
+                "nom": "Alice",
+                "note": 4.8,
+                "commentaire": "Fort mourir perdu depuis.",
+                "date": "2025-05-15"
+            },
+            {
+                "nom": "Martin",
+                "note": 4.4,
+                "commentaire": "Droite droit plaire en qualité.",
+                "date": "2025-06-19"
+            }
+        ]
+    },
+    {
+        "id": "pharma_008",
+        "nom": "Jean S.A.S.",
+        "logo_url": "https://dummyimage.com/1008x130",
+        "adresse": "rue Marques\n48523 Texierdan",
+        "quartier": "Hanoukopé",
+        "ville": "Lomé",
+        "latitude": -57.135376,
+        "longitude": -17.500268,
+        "contact_whatsapp": "+33 1 72 18 03 17",
+        "contact_urgence": "+33 (0)4 90 37 84 02",
+        "email": "marcellelabbe@becker.fr",
+        "site_web": "https://weber.com/",
+        "responsable": "Dorothée Leblanc",
+        "langues_parlées": [
+            "anglais",
+            "français"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": true,
+        "garde_weekend": false,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Tmoney",
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "Autres",
+            "CNSS",
+            "OGAR"
+        ],
+        "services_disponibles": [
+            "Livraison",
+            "Dépistage",
+            "Vaccination"
+        ],
+        "date_creation": "2023-03-14",
+        "date_maj": "2025-06-10",
+        "note_moyenne": 4.4,
+        "avis_clients": [
+            {
+                "nom": "Bernard",
+                "note": 3.7,
+                "commentaire": "D'Abord armer eh visage parti.",
+                "date": "2025-05-04"
+            },
+            {
+                "nom": "Margaux",
+                "note": 3.5,
+                "commentaire": "Entrée flamme fils simple accord.",
+                "date": "2025-04-15"
+            },
+            {
+                "nom": "Guillaume",
+                "note": 3.1,
+                "commentaire": "On rejoindre terme garçon trouver ville travailler.",
+                "date": "2025-06-13"
+            },
+            {
+                "nom": "Claude",
+                "note": 3.4,
+                "commentaire": "Reposer puisque soin instant pourquoi chaud plonger foi.",
+                "date": "2025-04-26"
+            }
+        ]
+    },
+    {
+        "id": "pharma_009",
+        "nom": "Guillou Devaux SA",
+        "logo_url": "https://placekitten.com/125/475",
+        "adresse": "1, rue Dorothée Blanchard\n85443 MoreauVille",
+        "quartier": "Hanoukopé",
+        "ville": "Lomé",
+        "latitude": 30.857607,
+        "longitude": -51.706629,
+        "contact_whatsapp": "+33 3 54 45 97 74",
+        "contact_urgence": "0328742992",
+        "email": "qmartins@blanchet.fr",
+        "site_web": "http://moreau.org/",
+        "responsable": "Michel Grondin",
+        "langues_parlées": [
+            "français",
+            "anglais",
+            "éwé"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": true,
+        "garde_weekend": true,
+        "garde_urgente": true,
+        "mode_paiement": [
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "OGAR",
+            "NSIA",
+            "CNSS"
+        ],
+        "services_disponibles": [
+            "Scan ordonnance",
+            "Paiement en ligne"
+        ],
+        "date_creation": "2025-06-12",
+        "date_maj": "2025-06-20",
+        "note_moyenne": 4.0,
+        "avis_clients": [
+            {
+                "nom": "Jeannine",
+                "note": 3.3,
+                "commentaire": "Apprendre lisser lutter hier fonction.",
+                "date": "2025-07-04"
+            },
+            {
+                "nom": "Geneviève",
+                "note": 4.6,
+                "commentaire": "Monsieur oncle bras puisque coucher renoncer éloigner.",
+                "date": "2025-04-24"
+            },
+            {
+                "nom": "Inès",
+                "note": 4.0,
+                "commentaire": "Bas venir intention chacun condamner vite changement.",
+                "date": "2025-05-02"
+            },
+            {
+                "nom": "Olivier",
+                "note": 5.0,
+                "commentaire": "Cent chez vaincre fait confiance.",
+                "date": "2025-05-25"
+            }
+        ]
+    },
+    {
+        "id": "pharma_010",
+        "nom": "Petitjean",
+        "logo_url": "https://picsum.photos/108/647",
+        "adresse": "69, avenue de Klein\n11737 Coste",
+        "quartier": "Hanoukopé",
+        "ville": "Lomé",
+        "latitude": -48.878794,
+        "longitude": 162.681374,
+        "contact_whatsapp": "+33 1 34 04 32 51",
+        "contact_urgence": "+33 (0)1 78 30 62 72",
+        "email": "mariegenevieve@loiseau.fr",
+        "site_web": "http://www.collin.fr/",
+        "responsable": "Auguste Hoareau",
+        "langues_parlées": [
+            "anglais"
+        ],
+        "heures_ouverture": "Lundi–Samedi 8h–20h",
+        "garde_nuit": true,
+        "garde_weekend": true,
+        "garde_urgente": false,
+        "mode_paiement": [
+            "Espèces",
+            "Flooz",
+            "Tmoney",
+            "Carte bancaire"
+        ],
+        "assurances_acceptees": [
+            "OGAR",
+            "NSIA"
+        ],
+        "services_disponibles": [
+            "Livraison",
+            "Dépistage"
+        ],
+        "date_creation": "2023-04-08",
+        "date_maj": "2025-07-03",
+        "note_moyenne": 2.9,
+        "avis_clients": [
+            {
+                "nom": "Monique",
+                "note": 3.3,
+                "commentaire": "Fête poitrine rentrer choix abattre autour terrain.",
+                "date": "2025-05-14"
+            },
+            {
+                "nom": "Alix",
+                "note": 4.8,
+                "commentaire": "Ensuite poésie adresser chaleur lumière demi.",
+                "date": "2025-04-24"
+            }
+        ]
+    }
+]
