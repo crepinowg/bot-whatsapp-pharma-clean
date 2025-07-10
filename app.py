@@ -48,36 +48,42 @@ def bot():
         return str(response)
 
     try:
-        # === Appel à OpenAI avec ton contexte pharmacie ===
-        completion = openai.ChatCompletion.create(
+        client = openai.OpenAI()  # SDK v1+
+
+        system_prompt = f"""
+        Tu es un assistant pharmacie intelligent pour le Togo. Voici des informations à ta disposition :\n{base_context}
+
+        Règles :
+        - Tu ne réponds qu'à partir des données fournies.
+        - Si tu ne trouves pas une info, dis : "Je ne peux pas répondre précisément à cette question pour l’instant."
+        - Sois clair, concis et professionnel.
+        - Réponds toujours en français.
+
+        Exemples de questions à traiter :
+        - Où se trouve la pharmacie Huet ?
+        - Quelles pharmacies acceptent CNSS ?
+        - Quelles sont les pharmacies de garde ce week-end ?
+        - Qui est le responsable de la pharmacie Jean S.A.S. ?
+        """
+
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             temperature=0.5,
             max_tokens=300,
             messages=[
-                {
-                    "role": "system",
-                    "content": f"""Tu es un assistant pharmacie pour le Togo. Voici des informations à ta disposition :\n{base_context}\n
-Tu dois répondre clairement aux questions de l'utilisateur à partir de ces données, comme : 
-- quelles pharmacies acceptent une assurance ? 
-- où trouver une pharmacie à Tokoin ? 
-- qui est le responsable d'une pharmacie ? etc.
-"""
-                },
-                {
-                    "role": "user",
-                    "content": incoming_msg
-                }
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": incoming_msg}
             ]
         )
 
-        bot_reply = completion.choices[0].message.content.strip()
+        bot_reply = response.choices[0].message.content.strip()
         msg.body(bot_reply)
 
     except Exception as e:
-        msg.body("Désolé, une erreur est survenue. Réessaie plus tard. Erreur OpenAI :", e)
+        msg.body("Désolé, une erreur est survenue. Réessaie plus tard. Erreur OpenAI :")
         print("Erreur OpenAI :", e)
 
-    return str(response)
+    return str(response) 
 
 # === Lancement du serveur Flask ===
 if __name__ == "__main__":
